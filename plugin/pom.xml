@@ -12,6 +12,12 @@
     <artifactId>holographicdisplays-plugin</artifactId>
     <name>HolographicDisplays Plugin</name>
 
+    <repositories>
+        <repository>
+            <id>placeholderapi</id>
+            <url>https://repo.extendedclip.com/content/repositories/placeholderapi/</url>
+        </repository>
+    </repositories>
     <dependencies>
         <dependency>
             <groupId>${project.groupId}</groupId>
@@ -52,22 +58,15 @@
             <groupId>me.filoghost.fcommons</groupId>
             <artifactId>fcommons</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.17.0</version>
+        </dependency>
     </dependencies>
 
     <build>
-        <resources>
-            <resource>
-                <directory>src/main/resources</directory>
-                <filtering>true</filtering>
-            </resource>
-            <resource>
-                <directory>..</directory>
-                <includes>
-                    <include>LICENSE.txt</include>
-                    <include>THIRD-PARTY.txt</include>
-                </includes>
-            </resource>
-        </resources>
+
 
         <plugins>
             <plugin>

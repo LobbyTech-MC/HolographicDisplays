@@ -31,9 +31,9 @@
         <property name="max" value="600"/>
     </module>
 
-    <!-- Limit maximum line length for readability -->
+    <!-- Limit maximum line length for readability --> 
     <module name="LineLength">
-        <property name="fileExtensions" value="java"/>
+    <property name="fileExtensions" value="java"/>
         <property name="max" value="140"/>
         <property name="ignorePattern" value="^package.*|^import.*"/>
     </module>
