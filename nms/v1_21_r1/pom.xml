@@ -24,7 +24,6 @@
             <version>1.21.1-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
-
         <dependency>
             <groupId>org.joml</groupId>
             <artifactId>joml</artifactId>
